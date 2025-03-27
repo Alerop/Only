@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
       prototype works!
     </p>
   `,
-  styles: ``
+  styles: ``,
+  standalone: true
 })
 export class PrototypeComponent {
 
