@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PrototypeComponent } from './prototype.component';
+import { OnlyPrototypeTComponent } from './only-prototype-t.component';
 
-describe('PrototypeComponent', () => {
-  let component: PrototypeComponent;
-  let fixture: ComponentFixture<PrototypeComponent>;
+describe('OnlyPrototypeTComponent', () => {
+  let component: OnlyPrototypeTComponent;
+  let fixture: ComponentFixture<OnlyPrototypeTComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PrototypeComponent]
+      imports: [OnlyPrototypeTComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PrototypeComponent);
+    fixture = TestBed.createComponent(OnlyPrototypeTComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

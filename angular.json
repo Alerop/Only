@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "prototype": {
+    "only-prototype-t": {
       "projectType": "library",
-      "root": "projects/prototype",
-      "sourceRoot": "projects/prototype/src",
+      "root": "projects/only-prototype-t",
+      "sourceRoot": "projects/only-prototype-t/src",
       "prefix": "only",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/prototype/ng-package.json"
+            "project": "projects/only-prototype-t/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/prototype/tsconfig.lib.prod.json"
+              "tsConfig": "projects/only-prototype-t/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/prototype/tsconfig.lib.json"
+              "tsConfig": "projects/only-prototype-t/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/prototype/tsconfig.spec.json",
+            "tsConfig": "projects/only-prototype-t/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
