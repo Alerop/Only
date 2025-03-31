@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'only-prototype',
+  selector: 'only-only-prototype-t',
   imports: [],
   template: `
     <p>
-      prototype works!
+      only-prototype-t works!
     </p>
   `,
   styles: ``,
   standalone: true
 })
-export class PrototypeComponent {
+export class OnlyPrototypeTComponent {
 
 }
