@@ -15,6 +15,9 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "paths": {
+      "only-components": [
+        "./dist/only-components"
+      ],
       "only-prototype-t": [
         "./dist/only-prototype-t"
       ]
